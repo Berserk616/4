@@ -1,0 +1,269 @@
+p{
+    margin: 0;
+    color: #302D24;
+}
+.background, .background_img{
+    /* position: absolute; */
+    width: 1440px;
+    height: 2910px;
+}
+.background_rectangle{
+    position: absolute;
+    width: 1266px;
+    height: 2728px;
+    left: 87px;
+    top: 26px;
+    
+    background: rgba(236, 228, 216, 0.4);
+    mix-blend-mode: normal;
+}
+.main_img{
+    position: absolute;
+    width: 403px;
+    height: 600px;
+    left: 121px;
+    top: 65px;
+}
+.text_main p{ 
+    position: absolute;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    color: #302D24;
+    font-family: 'Inter'
+}
+
+.text_main_background{
+    width: 186px;
+    height: 29px;
+    left: 553px;
+    top: 123px;
+}
+.text_Paragraph_background{
+    width: 762px;
+    height: 456px;
+    left: 553px;
+    top: 176px;
+}
+
+.text_main_magic{
+    width: 129px;
+    height: 29px;
+    top: 704px;
+    left: 121px;
+}
+.text_Paragraph_magic{
+    width: 1194px;
+    height: 168px;
+    top: 779px;
+    left: 121px;
+
+}
+.text_main_monk{
+    width: 90px;
+    height: 29px;
+    top: 1032px;
+    left: 121px;
+}
+.text_Paragraph_monk{
+    width: 1194px;
+    height: 192px;
+    top: 1084px;
+    left: 121px;
+}
+.text_main_way{
+    width: 200px;
+    height: 29px;
+    left: 117px;
+    top: 1354px;
+}
+.text_Paragraph_way{
+    width: 1198px;
+    height: 194px;
+    left: 117px;
+    top: 1403px;
+}
+.text_main_weapon{
+    width: 313px;
+    height: 29px;
+    top: 1630px;
+    left: 564px;
+}
+
+
+
+.weapon_text_title p, .weapon_text_title img {
+    position: absolute;
+}
+.weapon_weapon_img, .weapon_stair_img {
+    width: 546px;
+    height: 453px;
+    top: 1684px;
+}
+
+.weapon_weapon_img{
+    left: 149px;
+}
+.weapon_stair_img {
+    left: 745px;
+}
+
+/* минюшка */
+.tabs_blok{
+    position: absolute;
+    width: 1240px;
+    height: 427px;
+    left: 98px;
+    top: 2217px; 
+}
+
+.tabs{
+    display: block;
+}
+.tabs {
+    width: 1255px;
+    height: 498px;
+    /* margin-left: 87px;
+    margin-right: 100px; */
+}
+
+.tabs>input[type="radio"] {
+    display: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+    font-weight: bold;
+    cursor: default;
+}
+
+#tab-btn-1:checked~#content-1, #tab-btn-2:checked~#content-2, #tab-btn-3:checked~#content-3, #tab-btn-4:checked~#content-4, #tab-btn-5:checked~#content-5, #tab-btn-6:checked~#content-6 {
+    background: #D0A681;
+    display: block;
+}
+  .tabs>div {
+    background: #D0A681;
+    display: none;
+    padding-top: 10px;
+    width: 1242px;
+    height: 427px;
+  }
+
+  .tabs>label {
+    background: #D0A681;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    width: 199px;
+    height: 62px;
+    /* font-size: 24px;
+    line-height: 29px; */
+
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 5.5;
+    transition: color 0.15s ease-in-out;
+    margin-left: 6px;
+    cursor: pointer;
+  }
+
+  .tabs>label:first-of-type {
+    margin-left: 0;
+  }
+
+.indicator{
+    position: absolute;
+    height: 23px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    left: 66px;
+    top: 96px;
+    
+
+}
+.modifier{
+    position: absolute;
+    width: 411px;
+    height: 23px;
+    left: 417px;
+    top: 96px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.xp{
+    position: absolute;
+    width: 227px;
+    height: 23px;
+    left: 810px;
+    top: 96px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.tex_power,.tex_dexterity,.tex_dexterity2,.tex_Constitution,
+.tex_Constitution2,.tex_intelligence,.tex_intelligence2,
+.tex_wisdom,.tex_wisdom2,.tex_charisma,.tex_charisma2
+{
+    position: absolute;
+    top: 140px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+}
+.tex_power{
+    width: 1195px;
+    height: 341px;
+    left: 66px;
+}
+
+.tex_dexterity{
+    width: 717px;
+    height: 313px;
+    left: 66px;
+}
+.tex_dexterity2{
+    width: 232px;
+    height: 123px;
+    left: 834px;
+}
+.tex_Constitution{
+    width: 580px;
+    height: 276px;
+    left: 66px;
+}
+.tex_Constitution2{
+    width: 559px;
+    height: 300px;
+    left: 626px;
+}
+.tex_intelligence{
+    width: 710px;
+    height: 321px;
+    left: 66px;
+}
+.tex_intelligence2{
+    width: 239px;
+    height: 272px;
+    left: 835px;
+}
+
+.tex_wisdom{
+    width: 602px;
+    height: 250px;
+    left: 66px;
+}
+.tex_wisdom2{
+    width: 336px;
+    height: 275px;
+    left: 835px;
+}
+.tex_charisma{
+    width: 693px;
+    height: 313px;
+    left: 66px;
+}
+.tex_charisma2{
+    left: 835px;
+}
